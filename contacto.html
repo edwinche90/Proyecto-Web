@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-yes, initial-scale=1.0, maximum-scale-3.0, 
+    minimum-scale-1.0">
+    <title>Contacto | Muebleria</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <link ret="stylesheet" href="CSS/font.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Mubeleria Los CHE</h1>
+            </div>
+            <div class="main-header__contactinfo column column--50">
+                <p class="main-header__contactinfo__phone">
+                    <span class="icon-phone">41065023</span>
+                </p>
+                <p class="main-header__contactinfo__address">
+                    <span class="icon-location">3ra. Ave callejos Esperanza Cerro Corado</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class=""><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link  ">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">contacto</a></li>
+            </ul>   
+            <ul >
+                <li class="social-icon">
+                    <a href="" class="social-icon__link">
+                        <span class="icon-facebook"></span></a>
+                    <a href="" class="social-icon__link">
+                        <span class="icon-twitter"></span></a>
+                    <a href="" class="social-icon__link">
+                        <span class="icon-mail"></span></a>
+                </li>
+            </ul> 
+                
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/contacto.jpg" alt="" class="banner__img">
+        <div class="banner__content">Dejanos un Mensaje</div>
+    </section>
+    
+    <main class="main">
+        <seccion class="group contact">
+            <h2 class="group__title"> Contactenos </h2>
+            <div class="container container--flex">
+                <div class="contact-information column--50">
+                    <h3 class="column__title">informacion de contacto</h3>
+                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam id, quaerat omnis velit libero enim eius, de </p>
+                    <p class="column__txt"><span class="icon-phone"></span>Telefono 1 :999-999-999</p>
+                    <p class="column__txt"><span class="icon-phone"></span>Telefono 2 :555-555-555</p>
+                    <p class="column__txt"><span class="icon-location"></span>Cerro Corado Amatitlan, Gutemala</p>
+                    <p class="column__txt"><span class="icon-mail"></span>che1361990@hotmail.com</p>
+                    <ul class="social-icon">
+                        <li class="social-icon">
+                            <a href="" class="social-icon__link">
+                                <span class="icon-facebook"></span></a>
+                            <a href="" class="social-icon__link">
+                                <span class="icon-twitter"></span></a>
+                            <a href="" class="social-icon__link">
+                                <span class="icon-mail"></span></a>
+                        </li>
+                    </ul> 
+                </div>
+                <form action="enviarcorreo.php" method="post" class="formulario column--50">
+                    <label for="" class="formulario__label">Nombre</label>
+                    <input type="text" class="formulario__input-txt" name="nombre">
+                    <label for="" class="formulario__label">Correo</label>
+                    <input type="text" class="formulario__input-txt" name="correo">
+                    <label for="" class="formulario__label">telefono</label>
+                    <input type="text" class="formulario__input-txt" name="telefono">
+                    <label for="" class="formulario__label">Mensaje</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea">    
+                    </textarea>
+                    <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+        </seccion>
+        
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿porque visitarnos?</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nobis sint vitae quisquam quos alias, perspiciatis iusto quod modi laboriosam dolorem distinctio voluptate. Dolores alias 
+                    deleniti voluptates a! Saepe, consequatur.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">contactanos</h2>
+                <p class="column__txt">urb las Donas 123 ica, peru</p>
+                <p class="column__txt">telefono: 66334552</p>
+                <p class="column__txt">consultas@yourrestaurant.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">siguenos en nuestra redes</h2>
+                <p class="column__txt"><a href="" class="icon-facebook"></a>Facebook</p>
+                <p class="column__txt"><a href="" class="icon-twitter"></a>Siguenos en twitter</p>
+                <p class="column__txt"><a href="" class="icon-youtube"></a>visita nuestro canal</p>
+            </div>
+            <p class="copy">2018 yourrestaurant ! todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
+
+
