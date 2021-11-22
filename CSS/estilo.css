@@ -1,19 +1,18 @@
 @font-face{
-    font-family: "Pacifico";
-    src: url(../fonts/Pacifico-Regular.ttf); 
+    font-family: "pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf);
 }
 
 @font-face{
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat-Regular.ttf); 
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face{
-    font-family: "Montserrat";
+    font-family: "Monrserrat";
     font-weight: bold;
-    src: url(../fonts/Montserrat-Bold.ttf); 
+    src: url(../fonts/Montserrat-Bold.ttf);
 }
-
 
 * {
     box-sizing: border-box;
@@ -83,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.main-header [class*="icon-"]:before { 
+.main-header [class="icon-"]:before { 
     position: relative;
     top: 2px;
     right: 5px;
@@ -325,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(0,0,0,0.85)
 }
 .banner {
-    margin-top: -2009px;
+    margin-top: -209px;
     z-index: -1000;
 }
 

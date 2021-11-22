@@ -20,10 +20,6 @@
     position: relative;
     top: 5px;
 }
-.contact-informacion .social-icon {
-    justify-content: flex-start;
-    margin-bottom: 10px;
-}
 
 .contact-information .social-icon [calss*="icon-"] {
     background: black;
