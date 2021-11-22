@@ -5,13 +5,13 @@
 
 @font-face{
     font-family: "Montserrat";
-    src: url(../fontsMontserrar-Regular.ttf); 
+    src: url(../fonts/Montserrat-Regular.ttf); 
 }
 
 @font-face{
     font-family: "Montserrat";
     font-weight: bold;
-    src: url(../fontsMontserrar-Bold.ttf); 
+    src: url(../fonts/Montserrat-Bold.ttf); 
 }
 
 
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(0,0,0,0.85)
 }
 .banner {
-    margin-top: -190px;
+    margin-top: -2009px;
     z-index: -1000;
 }
 
