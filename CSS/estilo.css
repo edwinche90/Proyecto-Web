@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.main-header [class="icon-"]:before { 
+.main-header [class*="icon-"]:before { 
     position: relative;
     top: 2px;
     right: 5px;
@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
 
     }
     .column__tx{
-        background-color: #ddd;
+        
         line-height: 50px;
         color: white;
         font-family:Georgia, 'Times New Roman', Times, serif;
